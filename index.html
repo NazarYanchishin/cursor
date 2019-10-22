@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git</title>
+</head>
+<body>
+<h1>GIT Шпаргалка</h1>
+<section>
+    <div>
+        <ul >
+            <li><strong>git config --global user.name blabla</strong>-додавання імені користувача після установки GIT. Це потрібно для розуміння хто підписує комит</li>
+            <li><strong>git config --global user.email blabal@bla</strong>-додавання емейлу користувача після установки GIT. Це потрібно для розуміння хто підписує комит</li>
+            <li><strong>git init</strong>-створити порожній GIT</li>
+            <li><strong>git status</strong>-переглянути які файли які мають відмінності з файлом індексу і поточним станом</li>
+            <li><strong>git add</strong>-підготувати файли до коммітов</li>
+            <li><strong>git commit</strong>-створити комит який описує нові зміни</li>
+            <li><strong>git log</strong>-відображає зміни кожного коміта</li>
+            <li><strong>git checkout</strong>-оновлює файли в робочому дереві відповідно до версії в індексі або вказаному дереві</li>
+            <li><strong>git branch</strong>-показує всі гілки і поточну підсвічує зеленим</li>
+            <li><strong>git push</strong>-віддати дані в репозиторій</li>
+            <li><strong>git pull</strong>-отримати дані в репозиторій</li>
+            <li><strong>git merge</strong>-ця команда використовується для злиття гілок</li>
+            <li><strong>git clone</strong>-клонує репозиторій в новий каталог</li>
+        </ul>
+        <p style="padding-left:2.2rem"><strong>.gitignore</strong>-повідомляє git які файли він повинен ігнорувати</p>
+        
+    </div>
+    <h2>Advanced</h2>
+    <ul>
+        <li><strong>git revert</strong>-скасовує новий комміт якщо він був не потрібен</li>
+        <li><strong>git reset</strong>-скасовує всі зміни в робочому каталозі</li>
+        <li><strong>git rebase</strong>-працює як і merge але не зберігає історію (послідовність) комита. Краще не використовувати в командній роботі, а для локальних гілок</li>
+        <li><strong>git cherry-pick</strong>-перетягнути комит з іншої гілки в свою</li>
+        <li><strong>git stash</strong>-якщо нам не потрібно робити комміт, але потрібно зберегти поточну версію змін</li>
+    </ul>
+
+</section>
+</body>
+</html>
